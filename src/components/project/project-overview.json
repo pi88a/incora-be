@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_project_project_overviews",
+  "info": {
+    "displayName": "project overview",
+    "icon": "eye"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.item",
+      "required": true
+    }
+  }
+}

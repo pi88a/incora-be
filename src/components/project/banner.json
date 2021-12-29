@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_project_banners",
+  "info": {
+    "displayName": "banner",
+    "icon": "hammer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

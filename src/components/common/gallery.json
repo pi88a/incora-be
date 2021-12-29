@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_common_galleries",
+  "info": {
+    "displayName": "gallery",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "pictures": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_project_main_infos",
+  "info": {
+    "displayName": "main info",
+    "icon": "bookmark"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.item",
+      "required": true
+    }
+  }
+}

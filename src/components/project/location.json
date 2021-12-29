@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_project_locations",
+  "info": {
+    "displayName": "location",
+    "icon": "search-location"
+  },
+  "options": {},
+  "attributes": {
+    "lat": {
+      "type": "float",
+      "required": true
+    },
+    "lng": {
+      "type": "float",
+      "required": true
+    }
+  }
+}

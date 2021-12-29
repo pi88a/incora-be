@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_common_offices",
+  "info": {
+    "displayName": "offices",
+    "icon": "couch"
+  },
+  "options": {},
+  "attributes": {
+    "industries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::industry.industry"
+    }
+  }
+}
