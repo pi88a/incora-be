@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::project.project",
+      "mappedBy": "services"
+    }
+  }
+}
