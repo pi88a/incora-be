@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "project.banner",
+      "required": true
+    },
+    "location": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::location.location",
+      "inversedBy": "projects"
+    },
+    "industry": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::industry.industry",
+      "inversedBy": "projects"
+    },
+    "technologies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::technology.technology",
+      "inversedBy": "projects"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::service.service",
+      "inversedBy": "projects"
+    },
+    "mainInfo": {
+      "displayName": "main info",
+      "type": "component",
+      "repeatable": false,
+      "component": "project.main-info",
+      "required": true
+    },
+    "projectOverview": {
+      "displayName": "project overview",
+      "type": "component",
+      "repeatable": false,
+      "component": "project.project-overview",
+      "required": true
+    },
+    "gallery": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "common.gallery"
+    },
+    "feedback": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::feedback.feedback",
+      "inversedBy": "project"
+    },
+    "nextProject": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button",
+      "required": true
+    },
+    "contactUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.contact-us",
+      "required": true
+    }
+  }
+}
