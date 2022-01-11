@@ -4,7 +4,8 @@
   "info": {
     "singularName": "location",
     "pluralName": "locations",
-    "displayName": "location"
+    "displayName": "location",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,17 +22,19 @@
       "unique": false,
       "required": true
     },
-    "location": {
-      "displayName": "location",
-      "type": "component",
-      "repeatable": false,
-      "component": "project.location"
-    },
     "projects": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::project.project",
       "mappedBy": "location"
+    },
+    "lat": {
+      "type": "float",
+      "required": true
+    },
+    "lng": {
+      "type": "float",
+      "required": true
     }
   }
 }

@@ -35,7 +35,7 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::project.project",
-      "inversedBy": "feedback"
+      "mappedBy": "feedback"
     }
   }
 }

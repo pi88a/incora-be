@@ -59,7 +59,7 @@
     },
     "gallery": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "required": true,
       "component": "common.gallery"
     },
