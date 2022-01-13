@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_homepage_services",
+  "info": {
+    "displayName": "services",
+    "icon": "user-check"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "SERVICES"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    }
+  }
+}
