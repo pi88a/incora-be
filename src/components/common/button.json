@@ -2,15 +2,18 @@
   "collectionName": "components_common_buttons",
   "info": {
     "displayName": "button",
-    "icon": "gavel"
+    "icon": "gavel",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "label": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "url": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
