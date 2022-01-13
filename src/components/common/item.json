@@ -2,7 +2,8 @@
   "collectionName": "components_common_items",
   "info": {
     "displayName": "item",
-    "icon": "indent"
+    "icon": "indent",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,11 +15,9 @@
       "type": "richtext",
       "required": true
     },
-    "picture": {
+    "image": {
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "type": "media",
       "multiple": false

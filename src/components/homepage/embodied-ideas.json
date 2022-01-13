@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_homepage_embodied_ideas",
+  "info": {
+    "displayName": "embodied ideas",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "EMBODIED IDEAS"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true,
+      "default": "Want to see more works?"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button",
+      "required": true
+    }
+  }
+}

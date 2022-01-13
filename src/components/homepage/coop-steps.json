@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_homepage_coop_steps",
+  "info": {
+    "displayName": "coop steps",
+    "icon": "blind",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "How to Cooperate?"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.item",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button",
+      "required": true
+    }
+  }
+}

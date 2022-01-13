@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_homepage_cooperation_steps",
+  "info": {
+    "displayName": "cooperation steps",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.item",
+      "required": true
+    }
+  }
+}

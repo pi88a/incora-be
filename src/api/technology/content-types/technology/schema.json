@@ -4,7 +4,8 @@
   "info": {
     "singularName": "technology",
     "pluralName": "technologies",
-    "displayName": "technology"
+    "displayName": "technology",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,11 +18,12 @@
       "required": true
     },
     "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "url": {
       "type": "string"
@@ -31,6 +33,12 @@
       "relation": "manyToMany",
       "target": "api::project.project",
       "mappedBy": "technologies"
+    },
+    "tech_scope": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::tech-scope.tech-scope",
+      "inversedBy": "technologies"
     }
   }
 }

@@ -1,0 +1,63 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "homePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.homepage",
+      "required": true
+    },
+    "coopSteps": {
+      "displayName": "coop steps",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.coop-steps",
+      "required": true
+    },
+    "services": {
+      "displayName": "services",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.services",
+      "required": true
+    },
+    "technologies": {
+      "displayName": "technologies",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.technologies",
+      "required": true
+    },
+    "embodiedIdeas": {
+      "displayName": "embodied ideas",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.embodied-ideas",
+      "required": true
+    },
+    "aboutUs": {
+      "displayName": "about us",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.about-us",
+      "required": true
+    },
+    "contactUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.contact-us",
+      "required": true
+    }
+  }
+}

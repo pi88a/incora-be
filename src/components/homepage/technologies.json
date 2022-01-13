@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_homepage_technologies",
+  "info": {
+    "displayName": "technologies",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "TECHNOLOGIES",
+      "required": true
+    },
+    "tech_scopes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tech-scope.tech-scope"
+    }
+  }
+}
