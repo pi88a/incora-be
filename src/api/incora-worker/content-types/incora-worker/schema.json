@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "incora_workers",
+  "info": {
+    "singularName": "incora-worker",
+    "pluralName": "incora-workers",
+    "displayName": "incoraWorker",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "profilePhoto": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "facebook": {
+      "type": "string",
+      "required": false
+    },
+    "linkedin": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
