@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_article_banners",
+  "info": {
+    "displayName": "banner",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::incora-worker.incora-worker"
+    }
+  }
+}

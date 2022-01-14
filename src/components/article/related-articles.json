@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_article_related_articles",
+  "info": {
+    "displayName": "relatedArticles",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "intro": {
+      "type": "string",
+      "required": true
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}

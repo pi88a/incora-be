@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_article_impressions",
+  "info": {
+    "displayName": "impression",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "emotion": {
+      "displayName": "emotion",
+      "type": "component",
+      "repeatable": true,
+      "component": "article.emotion"
+    }
+  }
+}
