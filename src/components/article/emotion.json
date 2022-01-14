@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_article_emotions",
+  "info": {
+    "displayName": "emotion",
+    "icon": "balance-scale-right"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
