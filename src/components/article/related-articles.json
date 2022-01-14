@@ -2,13 +2,15 @@
   "collectionName": "components_article_related_articles",
   "info": {
     "displayName": "relatedArticles",
-    "icon": "info"
+    "icon": "info",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "intro": {
       "type": "string",
-      "required": true
+      "required": true,
+      "default": "YOU MAY ALSO LIKE"
     },
     "articles": {
       "type": "relation",

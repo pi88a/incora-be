@@ -2,14 +2,19 @@
   "collectionName": "components_article_impressions",
   "info": {
     "displayName": "impression",
-    "icon": "angry"
+    "icon": "angry",
+    "description": ""
   },
   "options": {},
   "attributes": {
+    "intro": {
+      "type": "string",
+      "required": true,
+      "default": "What’s your impression after reading this article?"
+    },
     "emotion": {
-      "displayName": "emotion",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "article.emotion"
     }
   }
