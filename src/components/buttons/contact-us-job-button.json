@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_buttons_contact_us_job_buttons",
+  "info": {
+    "displayName": "contact Us (job) button",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "default": "Contact Us"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

@@ -40,7 +40,7 @@
     "contactUs": {
       "type": "component",
       "repeatable": false,
-      "component": "common.contact-us",
+      "component": "article.contact-us",
       "required": true
     }
   }

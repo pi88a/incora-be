@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_buttons_upload_buttons",
+  "info": {
+    "displayName": "upload button",
+    "icon": "cloud-upload-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "Upload your Project Description",
+      "required": true
+    }
+  }
+}

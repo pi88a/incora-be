@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_buttons_sends",
+  "info": {
+    "displayName": "send button",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "Send",
+      "required": true
+    }
+  }
+}

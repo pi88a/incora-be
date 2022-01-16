@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_article_contactuses",
+  "info": {
+    "displayName": "contactUs",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Let’s talk!"
+    },
+    "subtitle": {
+      "type": "richtext",
+      "default": "Why don’t we discuss your idea?",
+      "required": true
+    },
+    "contactButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.contact-us",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_common_contact_us_forms",
+  "info": {
+    "displayName": "Contact Us form",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Let's reach out!"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true,
+      "default": "Share your idea with us."
+    },
+    "uploadButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.upload-button",
+      "required": true
+    },
+    "sendButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.send",
+      "required": true
+    }
+  }
+}
