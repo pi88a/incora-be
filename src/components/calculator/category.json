@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_calculator_categories",
+  "info": {
+    "displayName": "category",
+    "icon": "certificate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "calculator.feature",
+      "required": true
+    }
+  }
+}

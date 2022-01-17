@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "estimation_pages",
+  "info": {
+    "singularName": "estimation-page",
+    "pluralName": "estimation-pages",
+    "displayName": "estimationPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.bunner",
+      "required": true
+    },
+    "platformTabText": {
+      "type": "string",
+      "required": true,
+      "default": "Choose your platform:"
+    },
+    "featuresTabText": {
+      "type": "string",
+      "required": true,
+      "default": "Choose Your App’s Features"
+    },
+    "categories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "calculator.category",
+      "required": true
+    },
+    "result": {
+      "displayName": "result",
+      "type": "component",
+      "repeatable": false,
+      "component": "calculator.result",
+      "required": true
+    }
+  }
+}

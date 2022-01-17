@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_calculator_features",
+  "info": {
+    "displayName": "feature",
+    "icon": "feather",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "platforms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "calculator.platform",
+      "required": true
+    }
+  }
+}

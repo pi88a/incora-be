@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_calculator_platforms",
+  "info": {
+    "displayName": "platform",
+    "icon": "paper-plane",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "min": {
+      "type": "integer",
+      "required": true
+    },
+    "max": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
