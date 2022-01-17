@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string"
-    },
     "url": {
       "type": "string"
     },
@@ -33,7 +30,8 @@
     "bestSuitedFor": {
       "type": "component",
       "repeatable": false,
-      "component": "common.list"
+      "component": "common.list",
+      "required": true
     },
     "workflow": {
       "type": "component",
@@ -51,6 +49,12 @@
       "repeatable": false,
       "component": "common.list",
       "required": true
+    },
+    "contactUs": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "common.contact-us"
     }
   }
 }

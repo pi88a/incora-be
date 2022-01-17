@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_services_tech_stacks",
+  "info": {
+    "displayName": "techStack",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Tech Stack"
+    },
+    "tech_stacks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tech-stack.tech-stack"
+    },
+    "contactButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.contact-us",
+      "required": true
+    }
+  }
+}

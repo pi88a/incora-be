@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_services_services",
+  "info": {
+    "displayName": "services",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_pages",
+  "info": {
+    "singularName": "services-page",
+    "pluralName": "services-pages",
+    "displayName": "servicesPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.bunner",
+      "required": true
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    },
+    "techStack": {
+      "displayName": "techStack",
+      "type": "component",
+      "repeatable": false,
+      "component": "services.tech-stack",
+      "required": true
+    },
+    "contactUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.contact-us",
+      "required": true
+    }
+  }
+}
