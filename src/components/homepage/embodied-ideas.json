@@ -20,12 +20,6 @@
       "type": "string",
       "required": true,
       "default": "Want to see more works?"
-    },
-    "button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.button",
-      "required": true
     }
   }
 }

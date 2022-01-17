@@ -1,7 +1,7 @@
 {
   "collectionName": "components_common_contactuses",
   "info": {
-    "displayName": "contact us",
+    "displayName": "contact Us",
     "icon": "envelope",
     "description": ""
   },
@@ -16,12 +16,6 @@
     "subtitle": {
       "type": "string",
       "default": "Let's create progress together!"
-    },
-    "button": {
-      "displayName": "button",
-      "type": "component",
-      "repeatable": false,
-      "component": "common.button"
     }
   }
 }

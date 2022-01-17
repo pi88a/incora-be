@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_common_items",
+  "collectionName": "components_common_bunners",
   "info": {
-    "displayName": "item",
-    "icon": "indent",
+    "displayName": "banner",
+    "icon": "bus",
     "description": ""
   },
   "options": {},
@@ -13,14 +13,16 @@
     },
     "description": {
       "type": "richtext",
-      "required": false
+      "required": true
     },
-    "image": {
+    "icon": {
       "type": "media",
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images"
+        "images",
+        "files",
+        "videos"
       ]
     }
   }

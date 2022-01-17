@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_common_lists",
+  "info": {
+    "displayName": "list",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "intro": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.item"
+    }
+  }
+}

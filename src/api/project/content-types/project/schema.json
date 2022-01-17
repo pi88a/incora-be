@@ -37,12 +37,6 @@
       "target": "api::technology.technology",
       "inversedBy": "projects"
     },
-    "services": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::service.service",
-      "inversedBy": "projects"
-    },
     "mainInfo": {
       "displayName": "main info",
       "type": "component",
@@ -68,12 +62,6 @@
       "relation": "oneToOne",
       "target": "api::feedback.feedback",
       "inversedBy": "project"
-    },
-    "nextProject": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.button",
-      "required": true
     },
     "contactUs": {
       "type": "component",

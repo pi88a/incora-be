@@ -4,7 +4,8 @@
   "info": {
     "singularName": "service",
     "pluralName": "services",
-    "displayName": "service"
+    "displayName": "service",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,11 +18,39 @@
     "url": {
       "type": "string"
     },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.bunner",
+      "required": true
+    },
+    "whyDoYouNeed": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.list",
+      "required": true
+    },
+    "bestSuitedFor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.list"
+    },
+    "workflow": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.list",
+      "required": true
+    },
     "projects": {
       "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::project.project",
-      "mappedBy": "services"
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.list",
+      "required": true
     }
   }
 }
