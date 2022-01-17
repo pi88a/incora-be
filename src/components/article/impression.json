@@ -11,11 +11,6 @@
       "type": "string",
       "required": true,
       "default": "What’s your impression after reading this article?"
-    },
-    "emotion": {
-      "type": "component",
-      "repeatable": false,
-      "component": "article.emotion"
     }
   }
 }

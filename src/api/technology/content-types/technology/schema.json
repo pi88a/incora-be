@@ -34,12 +34,6 @@
       "target": "api::project.project",
       "mappedBy": "technologies"
     },
-    "tech_scope": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::tech-scope.tech-scope",
-      "inversedBy": "technologies"
-    },
     "tech_stacks": {
       "type": "relation",
       "relation": "manyToMany",

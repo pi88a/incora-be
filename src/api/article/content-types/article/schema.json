@@ -40,8 +40,14 @@
     "contactUs": {
       "type": "component",
       "repeatable": false,
-      "component": "article.contact-us",
+      "component": "common.contact-us",
       "required": true
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "articles"
     }
   }
 }

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  tech-scope controller
+ *  tag controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::tech-scope.tech-scope');
+module.exports = createCoreController('api::tag.tag');

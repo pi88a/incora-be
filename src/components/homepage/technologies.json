@@ -11,11 +11,6 @@
       "type": "string",
       "default": "TECHNOLOGIES",
       "required": true
-    },
-    "tech_scopes": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::tech-scope.tech-scope"
     }
   }
 }

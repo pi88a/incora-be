@@ -17,11 +17,6 @@
       "type": "richtext",
       "default": "Let’s create progress together!",
       "required": true
-    },
-    "button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "buttons.contact-us"
     }
   }
 }

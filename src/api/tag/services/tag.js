@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * tech-scope service.
+ * tag service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::tech-scope.tech-scope');
+module.exports = createCoreService('api::tag.tag');
