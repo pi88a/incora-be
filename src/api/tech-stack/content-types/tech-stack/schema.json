@@ -20,9 +20,9 @@
     },
     "technologies": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "oneToMany",
       "target": "api::technology.technology",
-      "inversedBy": "tech_stacks"
+      "mappedBy": "tech_stack"
     }
   }
 }

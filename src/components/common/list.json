@@ -2,7 +2,8 @@
   "collectionName": "components_common_lists",
   "info": {
     "displayName": "list",
-    "icon": "bars"
+    "icon": "bars",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,7 +14,8 @@
     "items": {
       "type": "component",
       "repeatable": true,
-      "component": "common.item"
+      "component": "common.item",
+      "required": true
     }
   }
 }

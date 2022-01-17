@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_technology_connected_lists",
+  "info": {
+    "displayName": "connectedList",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.item",
+      "required": true
+    },
+    "connections": {
+      "displayName": "connections",
+      "type": "component",
+      "repeatable": true,
+      "component": "technology.connections"
+    }
+  }
+}

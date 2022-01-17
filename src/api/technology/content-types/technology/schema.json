@@ -14,8 +14,18 @@
   "attributes": {
     "name": {
       "type": "string",
-      "unique": true,
-      "required": true
+      "required": true,
+      "unique": true
+    },
+    "tech_stack": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::tech-stack.tech-stack",
+      "inversedBy": "technologies"
+    },
+    "description": {
+      "type": "richtext",
+      "required": false
     },
     "icon": {
       "type": "media",
@@ -26,7 +36,28 @@
       ]
     },
     "url": {
-      "type": "string"
+      "type": "string",
+      "required": false,
+      "unique": true
+    },
+    "whyShouldYouUse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.list",
+      "required": false
+    },
+    "popularWebsites": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.gallery",
+      "required": false
+    },
+    "whyDevelopWithUs": {
+      "displayName": "connectedList",
+      "type": "component",
+      "repeatable": false,
+      "component": "technology.connected-list",
+      "required": false
     },
     "projects": {
       "type": "relation",
@@ -34,11 +65,17 @@
       "target": "api::project.project",
       "mappedBy": "technologies"
     },
-    "tech_stacks": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::tech-stack.tech-stack",
-      "inversedBy": "technologies"
+    "insights": {
+      "displayName": "insights relation",
+      "type": "component",
+      "repeatable": false,
+      "component": "common.insights-relation",
+      "required": false
+    },
+    "contactUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.contact-us"
     }
   }
 }

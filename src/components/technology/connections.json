@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_technology_connections",
+  "info": {
+    "displayName": "connections",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": false
+    },
+    "connectedItems": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
