@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = ({ env }) => ({
   graphql: {
     endpoint: "/graphql",
     shadowCRUD: true,
@@ -8,4 +8,4 @@ module.exports = {
       tracing: false,
     },
   },
-};
+});
