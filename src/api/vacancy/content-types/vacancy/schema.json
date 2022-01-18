@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vacancies",
+  "info": {
+    "singularName": "vacancy",
+    "pluralName": "vacancies",
+    "displayName": "vacancy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "speciality": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "technology": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "isHot": {
+      "type": "boolean",
+      "required": false
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
