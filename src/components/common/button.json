@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_common_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "assistive-listening-systems"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

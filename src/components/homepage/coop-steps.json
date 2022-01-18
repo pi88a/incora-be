@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "intro": {
       "type": "string",
       "required": true,
       "default": "How to Cooperate?"

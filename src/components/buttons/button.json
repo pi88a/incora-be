@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_buttons_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
