@@ -12,11 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "banner": {
-      "displayName": "banner",
-      "type": "component",
-      "repeatable": false,
-      "component": "project.banner",
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext",
       "required": true
     },
     "location": {

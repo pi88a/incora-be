@@ -11,10 +11,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "text": {
-      "type": "richtext",
-      "required": true
-    },
     "clientName": {
       "type": "string",
       "required": true
@@ -31,11 +27,15 @@
       "multiple": false,
       "required": true
     },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
     "project": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::project.project",
-      "inversedBy": "feedback"
+      "mappedBy": "feedback"
     }
   }
 }

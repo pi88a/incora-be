@@ -11,12 +11,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "country": {
+    "city": {
       "type": "string",
       "unique": false,
       "required": true
     },
-    "city": {
+    "country": {
       "type": "string",
       "unique": false,
       "required": true

@@ -12,12 +12,23 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "banner": {
-      "displayName": "banner",
-      "type": "component",
-      "repeatable": false,
-      "component": "article.banner",
-      "required": true
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::incora-worker.incora-worker"
     },
     "content": {
       "type": "richtext",

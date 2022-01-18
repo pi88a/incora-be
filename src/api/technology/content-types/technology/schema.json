@@ -17,6 +17,11 @@
       "required": true,
       "unique": true
     },
+    "url": {
+      "type": "string",
+      "required": false,
+      "unique": true
+    },
     "tech_stack": {
       "type": "relation",
       "relation": "manyToOne",
@@ -34,11 +39,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "url": {
-      "type": "string",
-      "required": false,
-      "unique": true
     },
     "whyShouldYouUse": {
       "type": "component",
