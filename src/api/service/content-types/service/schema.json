@@ -25,11 +25,19 @@
       "required": true
     },
     "icon": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "estimatedTime": {
+      "type": "string",
+      "required": true
+    },
+    "outcomes": {
+      "type": "richtext",
       "required": true
     },
     "whyDoYouNeed": {
