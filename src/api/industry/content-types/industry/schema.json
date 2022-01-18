@@ -4,7 +4,8 @@
   "info": {
     "singularName": "industry",
     "pluralName": "industries",
-    "displayName": "industry"
+    "displayName": "industry",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,11 +20,36 @@
     "url": {
       "type": "string"
     },
+    "description": {
+      "type": "richtext"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "offeredSolutions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.list"
+    },
     "projects": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::project.project",
       "mappedBy": "industry"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "contactUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.contact-us"
     }
   }
 }
