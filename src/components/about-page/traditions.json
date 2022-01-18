@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_about_page_traditions",
+  "info": {
+    "displayName": "traditions",
+    "icon": "battery-empty"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Our Traditions"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

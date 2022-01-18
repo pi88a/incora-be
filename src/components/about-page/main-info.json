@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_page_main_infos",
+  "info": {
+    "displayName": "mainInfo",
+    "icon": "battery-quarter"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "statistics": {
+      "displayName": "statistics",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-page.statistics"
+    },
+    "incora_workers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::incora-worker.incora-worker"
+    }
+  }
+}
