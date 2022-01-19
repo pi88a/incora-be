@@ -33,6 +33,12 @@
     "url": {
       "type": "string",
       "required": true
+    },
+    "currentVacancies": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.current-vacancies",
+      "required": true
     }
   }
 }
