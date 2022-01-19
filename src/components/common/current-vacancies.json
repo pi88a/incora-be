@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_common_current_vacancies",
+  "info": {
+    "displayName": "currentVacancies",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "intro": {
+      "type": "string",
+      "required": true,
+      "default": "We are looking for"
+    },
+    "filterText1": {
+      "type": "string",
+      "required": true,
+      "default": "speciality",
+      "unique": false
+    },
+    "filterText2": {
+      "type": "string",
+      "default": "technology",
+      "required": true
+    },
+    "header": {
+      "type": "string",
+      "required": true,
+      "default": "Quick apply"
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true,
+      "default": "Apply now"
+    }
+  }
+}

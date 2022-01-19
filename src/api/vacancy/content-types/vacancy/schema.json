@@ -4,7 +4,8 @@
   "info": {
     "singularName": "vacancy",
     "pluralName": "vacancies",
-    "displayName": "vacancy"
+    "displayName": "vacancy",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,10 @@
     "isHot": {
       "type": "boolean",
       "required": false
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
     },
     "url": {
       "type": "string",

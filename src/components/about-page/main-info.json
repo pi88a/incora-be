@@ -2,10 +2,15 @@
   "collectionName": "components_about_page_main_infos",
   "info": {
     "displayName": "mainInfo",
-    "icon": "battery-quarter"
+    "icon": "battery-quarter",
+    "description": ""
   },
   "options": {},
   "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
+    },
     "text": {
       "type": "richtext",
       "required": true

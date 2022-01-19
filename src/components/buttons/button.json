@@ -2,7 +2,8 @@
   "collectionName": "components_buttons_buttons",
   "info": {
     "displayName": "button",
-    "icon": "asterisk"
+    "icon": "asterisk",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,7 +12,8 @@
       "required": true
     },
     "url": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
