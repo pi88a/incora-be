@@ -17,17 +17,15 @@
       "required": true,
       "default": "Share your idea with us."
     },
-    "uploadButton": {
-      "type": "component",
-      "repeatable": false,
-      "component": "buttons.upload-button",
+    "uploadButtonText": {
+      "type": "richtext",
       "required": true
     },
-    "sendButton": {
-      "type": "component",
-      "repeatable": false,
-      "component": "buttons.send",
-      "required": true
+    "sendButtonText": {
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "default": "Send"
     }
   }
 }
