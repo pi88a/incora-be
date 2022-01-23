@@ -17,6 +17,12 @@
       "repeatable": true,
       "component": "common.item",
       "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button",
+      "required": true
     }
   }
 }
