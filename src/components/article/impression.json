@@ -10,7 +10,7 @@
     "intro": {
       "type": "string",
       "required": true,
-      "default": "What’s your impression after reading this article?"
+      "default": "What’s your impression after reading this?"
     }
   }
 }

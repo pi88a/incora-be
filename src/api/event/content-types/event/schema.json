@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "contant": {
+      "type": "richtext",
+      "required": true
+    },
+    "impression": {
+      "type": "component",
+      "repeatable": false,
+      "component": "article.impression",
+      "required": true
+    },
+    "events": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.events",
+      "required": true
+    },
+    "contactUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.contact-us",
+      "required": true
+    }
+  }
+}
