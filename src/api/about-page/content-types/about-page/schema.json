@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-page",
     "pluralName": "about-pages",
-    "displayName": "aboutPage"
+    "displayName": "aboutPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,12 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "bannerImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "mainInfo": {
       "displayName": "mainInfo",
@@ -31,6 +32,12 @@
       "type": "component",
       "repeatable": false,
       "component": "about-page.traditions",
+      "required": true
+    },
+    "events": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.events",
       "required": true
     },
     "contactUs": {
