@@ -13,6 +13,6 @@ module.exports = ({ env }) => ({
       ssl: process.env.NODE_ENV === 'test' ? 
         false : { rejectUnauthorized: false },
     },
-    debug: false,
+    debug: false
   },
 });
