@@ -53,10 +53,11 @@
       "component": "homepage.about-us",
       "required": true
     },
-    "articles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::article.article"
+    "insights": {
+      "type": "component",
+      "repeatable": false,
+      "component": "article.related-articles",
+      "required": true
     },
     "contactUs": {
       "type": "component",
