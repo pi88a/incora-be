@@ -76,6 +76,12 @@
       "type": "component",
       "repeatable": false,
       "component": "common.contact-us"
+    },
+    "vacancies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::vacancy.vacancy",
+      "mappedBy": "technology"
     }
   }
 }
