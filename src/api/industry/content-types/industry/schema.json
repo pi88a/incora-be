@@ -24,11 +24,12 @@
       "type": "richtext"
     },
     "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "offeredSolutions": {
       "type": "component",
@@ -41,10 +42,11 @@
       "target": "api::project.project",
       "mappedBy": "industry"
     },
-    "articles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::article.article"
+    "insights": {
+      "type": "component",
+      "repeatable": false,
+      "component": "article.related-articles",
+      "required": true
     },
     "contactUs": {
       "type": "component",
