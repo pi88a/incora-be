@@ -4,7 +4,8 @@
   "info": {
     "singularName": "careers-page",
     "pluralName": "careers-pages",
-    "displayName": "careersPage"
+    "displayName": "careersPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -29,6 +30,32 @@
       "type": "component",
       "repeatable": false,
       "component": "common.current-vacancies",
+      "required": true
+    },
+    "ourBenefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.list",
+      "required": true
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "contactUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.contact-us",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button",
       "required": true
     }
   }
