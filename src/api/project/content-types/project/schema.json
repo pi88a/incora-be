@@ -42,6 +42,11 @@
       "target": "api::technology.technology",
       "inversedBy": "projects"
     },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    },
     "mainInfo": {
       "displayName": "main info",
       "type": "component",
