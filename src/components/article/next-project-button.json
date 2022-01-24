@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_article_next_project_buttons",
+  "info": {
+    "displayName": "nextProjectButton",
+    "icon": "bed"
+  },
+  "options": {},
+  "attributes": {
+    "intro": {
+      "type": "string",
+      "default": "NEXT PROJECT",
+      "required": true
+    },
+    "project": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::project.project"
+    }
+  }
+}
