@@ -13,6 +13,11 @@ module.exports = ({ env }) => ({
       ssl: process.env.NODE_ENV === 'test' ? 
         false : { rejectUnauthorized: false },
     },
+    pool: {
+      acquireTimeoutMillis: 300000,
+      createRetryIntervalMillis: 200000,
+      
+    },
     debug: false
   },
 });
