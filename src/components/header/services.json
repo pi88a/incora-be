@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_header_services",
+  "info": {
+    "displayName": "services",
+    "icon": "balance-scale",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Services"
+    },
+    "featuredServices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header.featured-service",
+      "required": true
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    },
+    "pageUrl": {
+      "type": "string"
+    }
+  }
+}

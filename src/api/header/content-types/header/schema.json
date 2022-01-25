@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "header",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "services": {
+      "displayName": "services",
+      "type": "component",
+      "repeatable": false,
+      "component": "header.services"
+    },
+    "expertise": {
+      "displayName": "expertise",
+      "type": "component",
+      "repeatable": false,
+      "component": "header.expertise",
+      "required": true
+    },
+    "caseStudies": {
+      "displayName": "caseStudies",
+      "type": "component",
+      "repeatable": false,
+      "component": "header.case-studies"
+    },
+    "company": {
+      "displayName": "company",
+      "type": "component",
+      "repeatable": false,
+      "component": "header.company"
+    },
+    "insights": {
+      "displayName": "insights",
+      "type": "component",
+      "repeatable": false,
+      "component": "header.insights",
+      "required": true
+    },
+    "contactUs": {
+      "displayName": "contactUs",
+      "type": "component",
+      "repeatable": false,
+      "component": "header.contact-us"
+    }
+  }
+}

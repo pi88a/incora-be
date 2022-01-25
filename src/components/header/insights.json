@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_header_insights",
+  "info": {
+    "displayName": "insights",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Insights"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

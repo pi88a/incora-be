@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_header_case_studies",
+  "info": {
+    "displayName": "caseStudies",
+    "icon": "blender"
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "default": "Case Studies"
+    }
+  }
+}

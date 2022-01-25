@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_header_contactuses",
+  "info": {
+    "displayName": "contactUs",
+    "icon": "baby-carriage"
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Contact Us"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

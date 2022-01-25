@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_header_expertise",
+  "info": {
+    "displayName": "expertise",
+    "icon": "baby"
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Expertise"
+    }
+  }
+}
