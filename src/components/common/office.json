@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_common_offices",
+  "info": {
+    "displayName": "office",
+    "icon": "coffee"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

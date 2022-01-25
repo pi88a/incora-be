@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_common_social_medias",
+  "info": {
+    "displayName": "socialMedia",
+    "icon": "biking"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_footer_policies",
+  "info": {
+    "displayName": "policies",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link"
+    }
+  }
+}
