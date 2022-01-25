@@ -33,8 +33,7 @@
     "contactUs": {
       "type": "component",
       "repeatable": false,
-      "component": "common.contact-us",
-      "required": true
+      "component": "common.contact-us"
     }
   }
 }

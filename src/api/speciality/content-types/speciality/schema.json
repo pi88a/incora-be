@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "specialities",
+  "info": {
+    "singularName": "speciality",
+    "pluralName": "specialities",
+    "displayName": "speciality"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "vacancies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::vacancy.vacancy",
+      "mappedBy": "speciality"
+    }
+  }
+}

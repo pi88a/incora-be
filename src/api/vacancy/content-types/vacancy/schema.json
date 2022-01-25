@@ -12,16 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "speciality": {
-      "type": "string",
-      "required": true,
-      "unique": false
-    },
-    "technology": {
-      "type": "string",
-      "unique": false,
-      "required": true
-    },
     "isHot": {
       "type": "boolean",
       "required": false
@@ -39,6 +29,18 @@
       "repeatable": false,
       "component": "common.current-vacancies",
       "required": true
+    },
+    "technology": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::technology.technology",
+      "inversedBy": "vacancies"
+    },
+    "speciality": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::speciality.speciality",
+      "inversedBy": "vacancies"
     }
   }
 }

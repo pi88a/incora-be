@@ -11,16 +11,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "text": {
+    "errorMessage": {
       "type": "string",
-      "required": true
+      "required": true,
+      "default": "Something’s missing."
     },
-    "image": {
+    "errorImage": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": true
     }
   }
 }

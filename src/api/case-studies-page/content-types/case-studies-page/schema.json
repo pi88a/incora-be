@@ -13,10 +13,12 @@
   "attributes": {
     "title": {
       "type": "string",
+      "default": "Case Studies",
       "required": true
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "projects": {
       "type": "relation",
@@ -26,7 +28,7 @@
     "contactUs": {
       "type": "component",
       "repeatable": false,
-      "component": "common.contact-us-form",
+      "component": "common.contact-us",
       "required": true
     }
   }

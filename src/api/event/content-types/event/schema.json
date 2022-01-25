@@ -27,13 +27,13 @@
     "impression": {
       "type": "component",
       "repeatable": false,
-      "component": "article.impression"
+      "component": "article.impression",
+      "required": true
     },
-    "RelatedEvents": {
-      "displayName": "RelatedEvents",
+    "events": {
       "type": "component",
       "repeatable": false,
-      "component": "event.related-events",
+      "component": "event.events",
       "required": true
     },
     "contactUs": {

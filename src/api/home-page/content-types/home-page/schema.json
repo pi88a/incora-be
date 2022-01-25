@@ -53,7 +53,7 @@
       "component": "homepage.about-us",
       "required": true
     },
-    "articles": {
+    "insights": {
       "type": "component",
       "repeatable": false,
       "component": "article.related-articles",

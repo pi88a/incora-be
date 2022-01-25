@@ -13,10 +13,12 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "default": "Privacy Policy"
     },
-    "text": {
-      "type": "richtext"
+    "content": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

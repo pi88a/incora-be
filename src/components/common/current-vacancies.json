@@ -2,7 +2,8 @@
   "collectionName": "components_common_current_vacancies",
   "info": {
     "displayName": "currentVacancies",
-    "icon": "atom"
+    "icon": "atom",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,12 +15,12 @@
     "filterText1": {
       "type": "string",
       "required": true,
-      "default": "speciality",
+      "default": "Speciality",
       "unique": false
     },
     "filterText2": {
       "type": "string",
-      "default": "technology",
+      "default": "Technology",
       "required": true
     },
     "header": {

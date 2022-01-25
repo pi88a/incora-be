@@ -10,7 +10,7 @@
     "intro": {
       "type": "string",
       "required": true,
-      "default": "YOU MAY ALSO LIKE"
+      "default": "INSIGHTS"
     },
     "articles": {
       "type": "relation",

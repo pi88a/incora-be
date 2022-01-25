@@ -73,6 +73,13 @@
       "target": "api::feedback.feedback",
       "inversedBy": "project"
     },
+    "nextProjectButton": {
+      "displayName": "nextProjectButton",
+      "type": "component",
+      "repeatable": false,
+      "component": "article.next-project-button",
+      "required": true
+    },
     "contactUs": {
       "type": "component",
       "repeatable": false,
