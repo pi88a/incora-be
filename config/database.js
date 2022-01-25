@@ -12,13 +12,14 @@ module.exports = ({ env }) => ({
       password: config.password,
       ssl: process.env.NODE_ENV === 'test' ? 
         false : { rejectUnauthorized: false },
+      connectTimeout: 90000
     },
     pool: {
-      min: 0,
+      min: 1,
       max: 200,
-      idleTimeoutMillis: 300000,
-      createTimeoutMillis: 300000,
-      acquireTimeoutMillis: 300000,
+      idleTimeoutMillis: 30000000,
+      createTimeoutMillis: 30000000,
+      acquireTimeoutMillis: 30000000,
       propagateCreateError: false
     },
     debug: false
