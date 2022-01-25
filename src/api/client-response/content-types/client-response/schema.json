@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_responses",
+  "info": {
+    "singularName": "client-response",
+    "pluralName": "client-responses",
+    "displayName": "clientResponse"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "goals": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "content": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
