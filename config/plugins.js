@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = ({ env }) => ({
   graphql: {
     config: {
       endpoint: "/graphql",
@@ -10,4 +10,17 @@ module.exports = {
       },
     },
   },
-};
+  email: {
+    config: {
+      provider: 'sendgrid',
+      providerOptions: {
+        apiKey: env('SENDGRID_API_KEY'),
+      },
+      settings: {
+        defaultFrom: 'dev@incorainc.com',
+        defaultReplyTo: 'dev@incorainc.com',
+        testAddress: 'dev@incorainc.com',
+      },
+    },
+  },
+});

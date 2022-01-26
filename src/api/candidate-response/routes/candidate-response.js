@@ -10,7 +10,7 @@ module.exports = createCoreRouter('api::candidate-response.candidate-response', 
   config: {
     create: {
       middlewares: [
-        'global::send-mail',
+        'api::candidate-response.send-mail',
       ]
     }
   }
