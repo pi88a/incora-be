@@ -6,4 +6,12 @@
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::candidate-response.candidate-response');
+module.exports = createCoreRouter('api::candidate-response.candidate-response', {
+  config: {
+    create: {
+      middlewares: [
+        'global::send-mail',
+      ]
+    }
+  }
+});
