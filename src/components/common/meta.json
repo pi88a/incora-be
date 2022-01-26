@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_metas",
+  "info": {
+    "displayName": "meta",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}
