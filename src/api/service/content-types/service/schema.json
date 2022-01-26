@@ -74,6 +74,11 @@
       "repeatable": false,
       "required": true,
       "component": "common.contact-us"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.seo"
     }
   }
 }

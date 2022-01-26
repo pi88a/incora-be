@@ -20,7 +20,7 @@
       "type": "string",
       "required": true
     },
-    "contant": {
+    "content": {
       "type": "richtext",
       "required": true
     },
@@ -42,13 +42,18 @@
       "component": "common.contact-us",
       "required": true
     },
+    "featuredImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
     "SEO": {
       "type": "component",
       "repeatable": false,
       "component": "common.seo"
-    },
-    "views": {
-      "type": "biginteger"
     }
   }
 }

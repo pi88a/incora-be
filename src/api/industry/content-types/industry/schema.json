@@ -52,6 +52,11 @@
       "type": "component",
       "repeatable": false,
       "component": "common.contact-us"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.seo"
     }
   }
 }
