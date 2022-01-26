@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contacts-page",
     "pluralName": "contacts-pages",
-    "displayName": "contactsPage"
+    "displayName": "contactsPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,11 @@
       "repeatable": false,
       "component": "common.contact-us-form",
       "required": true
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.seo"
     }
   }
 }

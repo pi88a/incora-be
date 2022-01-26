@@ -86,6 +86,14 @@
       "component": "common.contact-us",
       "required": true
     },
+    "featuredImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
     "SEO": {
       "type": "component",
       "repeatable": true,

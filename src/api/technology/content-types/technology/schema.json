@@ -82,6 +82,11 @@
       "relation": "oneToMany",
       "target": "api::vacancy.vacancy",
       "mappedBy": "technology"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.seo"
     }
   }
 }

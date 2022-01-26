@@ -4,7 +4,8 @@
   "info": {
     "singularName": "case-studies-page",
     "pluralName": "case-studies-pages",
-    "displayName": "caseStudiesPage"
+    "displayName": "caseStudiesPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -30,6 +31,11 @@
       "repeatable": false,
       "component": "common.contact-us",
       "required": true
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.seo"
     }
   }
 }
