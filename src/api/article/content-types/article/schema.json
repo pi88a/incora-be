@@ -20,11 +20,6 @@
     "url": {
       "type": "string"
     },
-    "categories": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::category.category"
-    },
     "author": {
       "type": "relation",
       "relation": "oneToOne",
@@ -76,6 +71,11 @@
     },
     "views": {
       "type": "biginteger"
+    },
+    "industries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::industry.industry"
     }
   }
 }

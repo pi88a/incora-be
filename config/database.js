@@ -15,10 +15,10 @@ module.exports = ({ env }) => ({
     },
     pool: {
       min: 0,
-      max: 50,
-      idleTimeoutMillis:   30000,
-      createTimeoutMillis: 30000,
-      acquireTimeoutMillis: 30000,
+      max: 100,
+      idleTimeoutMillis:   3000000,
+      createTimeoutMillis: 3000000,
+      acquireTimeoutMillis: 3000000,
       propagateCreateError: false
     },
     debug: true
