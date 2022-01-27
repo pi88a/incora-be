@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "filter_specialities",
+  "info": {
+    "singularName": "filter-speciality",
+    "pluralName": "filter-specialities",
+    "displayName": "filterSpeciality"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "vacancies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::vacancy.vacancy",
+      "mappedBy": "filter_specialities"
+    }
+  }
+}

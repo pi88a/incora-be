@@ -15,12 +15,6 @@
       "type": "string",
       "required": true,
       "unique": true
-    },
-    "vacancies": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::vacancy.vacancy",
-      "mappedBy": "speciality"
     }
   }
 }

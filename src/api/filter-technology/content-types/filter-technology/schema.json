@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "filter_technologies",
+  "info": {
+    "singularName": "filter-technology",
+    "pluralName": "filter-technologies",
+    "displayName": "filterTechnology"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "vacancies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::vacancy.vacancy",
+      "mappedBy": "filter_technologies"
+    }
+  }
+}

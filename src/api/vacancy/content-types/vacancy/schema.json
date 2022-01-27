@@ -30,16 +30,16 @@
       "component": "common.current-vacancies",
       "required": true
     },
-    "technology": {
+    "filter_technologies": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::technology.technology",
+      "relation": "manyToMany",
+      "target": "api::filter-technology.filter-technology",
       "inversedBy": "vacancies"
     },
-    "speciality": {
+    "filter_specialities": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::speciality.speciality",
+      "relation": "manyToMany",
+      "target": "api::filter-speciality.filter-speciality",
       "inversedBy": "vacancies"
     }
   }
