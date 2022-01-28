@@ -37,8 +37,7 @@
     "events": {
       "type": "component",
       "repeatable": false,
-      "component": "event.events",
-      "required": true
+      "component": "article.related-articles"
     },
     "contactUs": {
       "type": "component",

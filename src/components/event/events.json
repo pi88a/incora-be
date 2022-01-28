@@ -2,7 +2,8 @@
   "collectionName": "components_event_events",
   "info": {
     "displayName": "events",
-    "icon": "angle-double-down"
+    "icon": "angle-double-down",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,10 +12,10 @@
       "required": true,
       "default": "RECENT EVENTS"
     },
-    "events": {
+    "articles": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::event.event"
+      "target": "api::article.article"
     }
   }
 }
